@@ -49,11 +49,11 @@ function print_help() {
   echo "Usage: script-link.sh <path_to_script>"
   echo ""
   echo "Paramter:"
-  echo "  <path_to_script>    The path to the script which should be symlinked to $BIN_DIR"
+  echo "  <path_to_script>    The absolute or relative path to the script you want to symlink to ~/.local/bin."
   echo ""
   echo "Description:"
-  echo "  Symlink the given script to $BIN_DIR withouth the script extension (if it exists)."
-  echo "  $BIN_DIR will be created if it does not exist. If its not available on the PATH, it will add it and writes to your .bashrc file."
+  echo "  Symlink the given script to ~/.local/bin withouth the script extension (if it exists)."
+  echo "  ~/.local/bin will be created if it does not exist. If its not available on the PATH, it will add it and writes to your .bashrc file."
 }
 
 function error() {
