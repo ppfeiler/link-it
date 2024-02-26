@@ -46,7 +46,7 @@ function main() {
 }
 
 function print_help() {
-  echo "Usage: script-link.sh <path_to_script>"
+  echo "Usage: link-it.sh <path_to_script>"
   echo ""
   echo "Paramter:"
   echo "  <path_to_script>    The absolute or relative path to the script you want to symlink to ~/.local/bin."

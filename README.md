@@ -1,8 +1,8 @@
-# Script-Link
+# Link-It
 
 ## About
 
-Script-Linker is a tool born out of personal necessity, tailored to streamline my scripting workflow. As someone who writes numerous scripts to encapsulate various tasks, I found myself needing a simple way to make these scripts easily accessible, regardless of their location across my system. This tool solves that problem by creating symlinks in `~/.local/bin`, ensuring that all my scripts are just a command away, no matter where they reside.
+Link-It is a tool born out of personal necessity, tailored to streamline my scripting workflow. As someone who writes numerous scripts to encapsulate various tasks, I found myself needing a simple way to make these scripts easily accessible, regardless of their location across my system. This tool solves that problem by creating symlinks in `~/.local/bin`, ensuring that all my scripts are just a command away, no matter where they reside.
 
 This project was not only a solution to a practical problem but also a fun and engaging journey into scripting and automation. It stands as a testament to the power of scripting in simplifying and optimizing daily tasks.
 
@@ -15,35 +15,35 @@ This project was not only a solution to a practical problem but also a fun and e
 
 ## Getting Started
 
-To use Script-Linker, simply clone this repository or download the script.
+To use Link-It, simply clone this repository or download the script.
 
 ```bash
-git clone https://github.com/ppfeiler/script-linker.git
-cd script-linker
+git clone https://github.com/ppfeiler/link-it.git
+cd link-it
 ```
 
 Ensure the script is executable:
 
 ```bash
-chmod +x script-link.sh
+chmod +x link-it.sh
 ```
 
 Run the script with the path to your script as the argument:
 
 ```bash
-./script-link.sh /path/to/your/script
+./link-it.sh /path/to/your/script
 ```
 
 You can also run this script against itself, so that it gets available on your path:
 
 ```bash
-./script-link.sh script-link.sh
+./link-it.sh link-it.sh
 ```
 
 ## Usage
 
 ```bash
-Usage: script-link.sh <path_to_script>
+Usage: link-it.sh <path_to_script>
 
 Paramter:
   <path_to_script>    The absolute or relative path to the script you want to symlink to ~/.local/bin.
