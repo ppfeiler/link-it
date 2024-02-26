@@ -40,11 +40,11 @@ Run the script with the path to your script as the argument:
 Usage: script-link.sh <path_to_script>
 
 Paramter:
-  <path_to_script>    The path to the script which should be symlinked to /home/ppfeiler/.local/bin
+  <path_to_script>    The path to the script which should be symlinked to ~/.local/bin
 
 Description:
-  Symlink the given script to /home/ppfeiler/.local/bin withouth the script extension (if it exists).
-  /home/ppfeiler/.local/bin will be created if it does not exist. If its not available on the PATH, it will add it and writes to your .bashrc file.
+  Symlink the given script to ~/.local/bin withouth the script extension (if it exists).
+  ~/.local/bin will be created if it does not exist. If its not available on the PATH, it will add it and writes to your .bashrc file.
 ```
 
 - **<path_to_script>**: The absolute or relative path to the script you want to symlink to ~/.local/bin.
